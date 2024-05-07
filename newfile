@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Landing Page</h1>
+    <p>A brief description of what you offer or what the landing page is about.</p>
+  </header>
+  <section>
+    <h2>Features</h2>
+    <ul>
+      <li>Feature 1</li>
+      <li>Feature 2</li>
+      <li>Feature 3</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Sign Up Form</h2>
+    <form action="submit.php" method="POST">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+  <footer>
+    <p>Contact us: email@example.com</p>
+  </footer>
+</body>
+</html>
